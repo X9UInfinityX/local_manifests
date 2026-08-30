@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <!-- Kernel-platform dependencies for the OPPO Find X9 Ultra. -->
   <project path="kernel/oneplus/sm8850" name="kernel/common" revision="android16-6.12-lts" clone-depth="1" remote="aosp" />
 
   <project path="kernel/platform/kernel-6.12/build/kernel" name="kernel/build" revision="main-kernel-2025" remote="aosp" groups="kernel-platform,kernel-platform-612">

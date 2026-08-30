@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- X9UInfinityX repositories maintained on the 3.12 branch. -->
+  <remove-project path="build/soong" />
+  <project path="build/soong" name="X9UInfinityX/android_build_soong" remote="github" revision="refs/heads/3.12" groups="pdk,tradefed,sysui-studio" />
+
+  <remove-project path="device/lineage/sepolicy" />
+  <project path="device/lineage/sepolicy" name="X9UInfinityX/device_infinity_sepolicy" remote="github" revision="refs/heads/3.12" />
+
+  <remove-project path="frameworks/av" />
+  <project path="frameworks/av" name="X9UInfinityX/frameworks_av" remote="github" revision="refs/heads/3.12" groups="pdk,sysui-studio" />
+
+  <remove-project path="frameworks/base" />
+  <project path="frameworks/base" name="X9UInfinityX/android_frameworks_base" remote="github" revision="refs/heads/3.12" />
+
+  <remove-project path="frameworks/native" />
+  <project path="frameworks/native" name="X9UInfinityX/android_frameworks_native" remote="github" revision="refs/heads/3.12" groups="pdk" />
+
+  <remove-project path="lineage-sdk" />
+  <project path="lineage-sdk" name="X9UInfinityX/custom-sdk" remote="github" revision="refs/heads/3.12" />
+
+  <remove-project path="packages/apps/AppLocker" />
+  <project path="packages/apps/AppLocker" name="X9UInfinityX/packages_apps_AppLocker" remote="github" revision="refs/heads/3.12" />
+
+  <remove-project path="packages/apps/GameSpace" />
+  <project path="packages/apps/GameSpace" name="X9UInfinityX/packages_apps_GameSpace" remote="github" revision="refs/heads/3.12" />
+
+  <remove-project path="packages/apps/InfinitySuite" />
+  <project path="packages/apps/InfinitySuite" name="X9UInfinityX/packages_apps_InfinitySuite" remote="github" revision="refs/heads/3.12" />
+
+  <remove-project path="packages/apps/Launcher3" />
+  <project path="packages/apps/Launcher3" name="X9UInfinityX/packages_apps_Launcher3" remote="github" revision="refs/heads/3.12" groups="pdk-cw-tvc,pdk-fs,sysui-studio" />
+
+  <remove-project path="packages/apps/LineageParts" />
+  <project path="packages/apps/LineageParts" name="X9UInfinityX/packages_apps_Parts" remote="github" revision="refs/heads/3.12" />
+
+  <remove-project path="packages/apps/Settings" />
+  <project path="packages/apps/Settings" name="X9UInfinityX/packages_apps_Settings" remote="github" revision="refs/heads/3.12" />
+
+  <remove-project path="packages/apps/SettingsIntelligence" />
+  <project path="packages/apps/SettingsIntelligence" name="X9UInfinityX/packages_apps_SettingsIntelligence" remote="github" revision="refs/heads/3.12" groups="pdk-fs" />
+
+  <remove-project path="packages/apps/ThemeStore" />
+  <project path="packages/apps/ThemeStore" name="X9UInfinityX/packages_apps_ThemeStore" remote="github" revision="refs/heads/3.12" />
+
+  <remove-project path="packages/apps/Updater" />
+  <project path="packages/apps/Updater" name="X9UInfinityX/packages_apps_Updater" remote="github" revision="refs/heads/3.12" />
+
+  <remove-project path="packages/modules/Permission" />
+  <project path="packages/modules/Permission" name="X9UInfinityX/android_packages_modules_Permission" remote="github" revision="refs/heads/3.12" groups="pdk-cw-fs,pdk-fs" />
+
+  <remove-project path="packages/providers/MediaProvider" />
+  <project path="packages/providers/MediaProvider" name="X9UInfinityX/android_packages_providers_MediaProvider" remote="github" revision="refs/heads/3.12" groups="pdk-cw-fs,pdk-fs" />
+
+  <remove-project path="system/core" />
+  <project path="system/core" name="X9UInfinityX/system_core" remote="github" revision="refs/heads/3.12" groups="pdk" />
+
+  <remove-project path="system/update_engine" />
+  <project path="system/update_engine" name="X9UInfinityX/system_update_engine" remote="github" revision="refs/heads/3.12" groups="pdk" />
+
+  <remove-project path="system/vold" />
+  <project path="system/vold" name="X9UInfinityX/system_vold" remote="github" revision="refs/heads/3.12" groups="pdk" />
+
+  <remove-project path="vendor/extras" />
+  <project path="vendor/extras" name="X9UInfinityX/vendor_extras" remote="github" revision="refs/heads/3.12" />
+
+  <remove-project path="vendor/infinity" />
+  <project path="vendor/infinity" name="X9UInfinityX/vendor_infinity" remote="github" revision="refs/heads/3.12" />
+
+  <remove-project path="vendor/qcom/opensource/healthd-ext" />
+  <project path="vendor/qcom/opensource/healthd-ext" name="X9UInfinityX/android_vendor_qcom_opensource_healthd-ext" remote="github" revision="refs/heads/3.12" groups="qcom,pakala-vendor" />
+</manifest>
