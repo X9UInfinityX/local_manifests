@@ -2,16 +2,17 @@
 
 This branch contains the X9UInfinityX repositories already available for
 Infinity-X 4.0 (Android 17), including the compatible lighthouse device,
-common, camera, prebuilt-kernel, and hardware-support repositories. Other
-device dependencies that have not yet been ported are intentionally omitted.
+common, camera, prebuilt-kernel, and hardware-support repositories. It also
+includes the required SM8850 thermal/USB projects and Linux 6.12 kernel build
+dependencies.
 
 ## Initialize and sync
 
 Create and enter an empty source directory:
 
 ```bash
-mkdir -p ~/android/X9UINFIX4.0
-cd ~/android/X9UINFIX4.0
+mkdir -p ~/android/X9UINFIX
+cd ~/android/X9UINFIX
 ```
 
 Initialize the upstream Infinity-X Android 17 manifest:
@@ -52,6 +53,7 @@ repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune \
 maintained `4.0` branch. Launcher3 is not overridden because its required fix is
 already present upstream on Android 17.
 
-This branch does not yet provide a complete buildable OPPO Find X9 Ultra device
-manifest. The remaining device-specific repositories will be added after their
-Android 17 ports are ready.
+The two SM8850 compatibility projects continue to track their maintained
+`lineage-23.2` branches in OnePlus-SM8850-Development. The kernel-platform
+manifest retains the Android 16-based Linux 6.12 revisions required by the
+device while the Android userspace is based on Infinity-X 17.

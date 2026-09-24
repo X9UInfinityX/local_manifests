@@ -92,6 +92,12 @@
 
   <project path="hardware/qcom-caf/sm8850/audio/primary-hal" name="X9UInfinityX/android_hardware_qcom_audio-ar" remote="github" revision="refs/heads/4.0" groups="qcom,kaanapali-audio" />
 
+  <remove-project path="hardware/qcom-caf/thermal" />
+  <project path="hardware/qcom-caf/thermal" name="OnePlus-SM8850-Development/android_hardware_qcom_thermal" remote="github" revision="refs/heads/lineage-23.2" groups="qcom,kaanapali-vendor" />
+
+  <remove-project path="vendor/qcom/opensource/usb" />
+  <project path="vendor/qcom/opensource/usb" name="OnePlus-SM8850-Development/android_vendor_qcom_opensource_usb" remote="github" revision="refs/heads/lineage-23.2" groups="qcom,kaanapali-vendor" />
+
   <project path="device/oppo/lighthouse" name="X9UInfinityX/android_device_oppo_lighthouse" remote="github" revision="refs/heads/4.0" />
 
   <project path="device/oppo/sm8850-common" name="X9UInfinityX/android_device_oppo_sm8850-common" remote="github" revision="refs/heads/4.0" />
