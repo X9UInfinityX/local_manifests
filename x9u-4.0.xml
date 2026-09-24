@@ -67,6 +67,8 @@
   <remove-project path="vendor/qcom/opensource/healthd-ext" />
   <project path="vendor/qcom/opensource/healthd-ext" name="X9UInfinityX/android_vendor_qcom_opensource_healthd-ext" remote="github" revision="refs/heads/4.0" groups="qcom,kaanapali-vendor" />
 
+  <project path="device/qcom/sepolicy_vndr/sm8850" name="X9UInfinityX/android_device_qcom_sepolicy_vndr" remote="github" revision="refs/heads/4.0" groups="qcom,kaanapali-vendor" />
+
   <project path="device/oppo/lighthouse" name="X9UInfinityX/android_device_oppo_lighthouse" remote="github" revision="refs/heads/4.0" />
 
   <project path="device/oppo/sm8850-common" name="X9UInfinityX/android_device_oppo_sm8850-common" remote="github" revision="refs/heads/4.0" />
