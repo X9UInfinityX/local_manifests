@@ -69,6 +69,8 @@
 
   <project path="device/qcom/sepolicy_vndr/sm8850" name="X9UInfinityX/android_device_qcom_sepolicy_vndr" remote="github" revision="refs/heads/4.0" groups="qcom,kaanapali-vendor" />
 
+  <project path="hardware/oplus" name="X9UInfinityX/android_hardware_oplus" remote="github" revision="refs/heads/4.0" />
+
   <remove-project name="LineageOS/android_hardware_qcom-caf_common" />
   <project path="hardware/qcom-caf/common" name="X9UInfinityX/android_hardware_qcom-caf_common" remote="github" revision="refs/heads/4.0" groups="qcom">
     <!-- add guard for AOSP hardware/qcom dir -->
