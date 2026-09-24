@@ -69,6 +69,8 @@
 
   <project path="device/oppo/lighthouse" name="X9UInfinityX/android_device_oppo_lighthouse" remote="github" revision="refs/heads/4.0" />
 
+  <project path="device/oppo/sm8850-common" name="X9UInfinityX/android_device_oppo_sm8850-common" remote="github" revision="refs/heads/4.0" />
+
   <project path="device/oppo/lighthouse-camera" name="X9UInfinityX/android_device_oppo_lighthouse-camera" remote="github" revision="refs/heads/4.0" />
 
   <project path="device/oppo/lighthouse-kernel" name="X9UInfinityX/android_device_oppo_lighthouse-kernel" remote="github" revision="refs/heads/4.0" />

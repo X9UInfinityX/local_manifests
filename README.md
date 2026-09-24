@@ -2,7 +2,7 @@
 
 This branch contains the X9UInfinityX repositories already available for
 Infinity-X 4.0 (Android 17), including the compatible lighthouse device,
-camera, and prebuilt-kernel repositories. The remaining common, hardware, and
+common, camera, and prebuilt-kernel repositories. The remaining hardware and
 proprietary vendor manifests are intentionally not included yet.
 
 ## Initialize and sync
