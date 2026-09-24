@@ -1,8 +1,8 @@
 # X9UInfinityX Infinity-X 4.0 local manifest
 
 This branch contains the X9UInfinityX repositories already available for
-Infinity-X 4.0 (Android 17), including the compatible lighthouse camera and
-prebuilt-kernel repositories. The remaining device, common, hardware, and
+Infinity-X 4.0 (Android 17), including the compatible lighthouse device,
+camera, and prebuilt-kernel repositories. The remaining common, hardware, and
 proprietary vendor manifests are intentionally not included yet.
 
 ## Initialize and sync
