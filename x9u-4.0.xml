@@ -66,4 +66,8 @@
 
   <remove-project path="vendor/qcom/opensource/healthd-ext" />
   <project path="vendor/qcom/opensource/healthd-ext" name="X9UInfinityX/android_vendor_qcom_opensource_healthd-ext" remote="github" revision="refs/heads/4.0" groups="qcom,kaanapali-vendor" />
+
+  <project path="device/oppo/lighthouse-camera" name="X9UInfinityX/android_device_oppo_lighthouse-camera" remote="github" revision="refs/heads/4.0" />
+
+  <project path="device/oppo/lighthouse-kernel" name="X9UInfinityX/android_device_oppo_lighthouse-kernel" remote="github" revision="refs/heads/4.0" />
 </manifest>

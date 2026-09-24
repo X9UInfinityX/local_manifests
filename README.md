@@ -1,8 +1,9 @@
 # X9UInfinityX Infinity-X 4.0 local manifest
 
-This branch contains only the X9UInfinityX platform repositories already ported
-to Infinity-X 4.0 (Android 17). Device, kernel, camera, hardware, and proprietary
-vendor manifests are intentionally not included yet.
+This branch contains the X9UInfinityX repositories already available for
+Infinity-X 4.0 (Android 17), including the compatible lighthouse camera and
+prebuilt-kernel repositories. The remaining device, common, hardware, and
+proprietary vendor manifests are intentionally not included yet.
 
 ## Initialize and sync
 
@@ -47,10 +48,10 @@ repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune \
 
 ## Scope
 
-`x9u-4.0.xml` overrides only the X9UInfinityX repositories that currently have
-a maintained `4.0` branch. Launcher3 is not overridden because its required fix
-is already present upstream on Android 17.
+`x9u-4.0.xml` includes only X9UInfinityX repositories that currently have a
+maintained `4.0` branch. Launcher3 is not overridden because its required fix is
+already present upstream on Android 17.
 
 This branch does not yet provide a complete buildable OPPO Find X9 Ultra device
-manifest. Device-specific repositories will be added after their Android 17
-ports are ready.
+manifest. The remaining device-specific repositories will be added after their
+Android 17 ports are ready.
