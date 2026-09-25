@@ -28,6 +28,9 @@
   <remove-project path="packages/apps/InfinitySuite" />
   <project path="packages/apps/InfinitySuite" name="X9UInfinityX/packages_apps_InfinitySuite" remote="github" revision="refs/heads/4.0" />
 
+  <remove-project path="packages/apps/Launcher3" />
+  <project path="packages/apps/Launcher3" name="X9UInfinityX/packages_apps_Launcher3" remote="github" revision="refs/heads/4.0" groups="pdk-fs,sysui-studio,pdk-cw-tvc" />
+
   <remove-project path="packages/apps/LineageParts" />
   <project path="packages/apps/LineageParts" name="X9UInfinityX/packages_apps_Parts" remote="github" revision="refs/heads/4.0" />
 
