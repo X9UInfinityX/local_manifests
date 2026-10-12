@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!-- X9UInfinityX repositories maintained on the 4.0 branch. -->
+  <remove-project path="build/make" />
+  <project path="build/make" name="X9UInfinityX/build" remote="github" revision="refs/heads/17" groups="pdk,sysui-studio" />
+
   <remove-project path="build/soong" />
   <project path="build/soong" name="X9UInfinityX/android_build_soong" remote="github" revision="refs/heads/4.0" groups="pdk,tradefed,sysui-studio" />
 
