@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!-- Kernel-platform dependencies for the OPPO Find X9 Ultra. -->
-  <project path="kernel/platform/kernel-6.12/vendor/oneplus/sm8850" name="LineageOS/android_kernel_oneplus_sm8850" revision="lineage-24.0" remote="github" groups="kernel-platform,kernel-platform-612" />
-  <project path="kernel/platform/kernel-6.12/vendor/oneplus/sm8850-devicetrees" name="LineageOS/android_kernel_oneplus_sm8850-devicetrees" revision="lineage-24.0" remote="github" groups="kernel-platform,kernel-platform-612" />
-  <project path="kernel/platform/kernel-6.12/vendor/oneplus/sm8850-modules" name="LineageOS/android_kernel_oneplus_sm8850-modules" revision="lineage-24.0" remote="github" groups="kernel-platform,kernel-platform-612" />
+  <project path="kernel/platform/kernel-6.12/vendor/oneplus/sm8850" name="X9UInfinityX/android_kernel_oneplus_sm8850" revision="seventeen" remote="github" groups="kernel-platform,kernel-platform-612" />
+  <project path="kernel/platform/kernel-6.12/vendor/oneplus/sm8850-devicetrees" name="X9UInfinityX/android_kernel_oneplus_sm8850-devicetrees" revision="seventeen" remote="github" groups="kernel-platform,kernel-platform-612" />
+  <project path="kernel/platform/kernel-6.12/vendor/oneplus/sm8850-modules" name="X9UInfinityX/android_kernel_oneplus_sm8850-modules" revision="seventeen" remote="github" groups="kernel-platform,kernel-platform-612" />
 
   <project path="kernel/platform/kernel-6.12/build/kernel" name="kernel/build" revision="main-kernel-2025" remote="aosp" groups="kernel-platform,kernel-platform-612">
     <linkfile src="kleaf/bazel.sh" dest="kernel/platform/kernel-6.12/tools/bazel" />
