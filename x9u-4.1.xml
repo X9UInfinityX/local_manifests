@@ -11,6 +11,9 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
 
+  <remove-project path="build/release" />
+  <project path="build/release" name="X9UInfinityX/android_build_release" remote="github" revision="refs/heads/4.1" groups="pdk,tradefed,sysui-studio" />
+
   <remove-project path="build/soong" />
   <project path="build/soong" name="X9UInfinityX/android_build_soong" remote="github" revision="refs/heads/4.1" groups="pdk,tradefed,sysui-studio" />
 
