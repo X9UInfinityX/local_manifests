@@ -85,7 +85,7 @@
 
   <project path="device/qcom/sepolicy_vndr/sm8850" name="X9UInfinityX/android_device_qcom_sepolicy_vndr" remote="github" revision="refs/heads/4.1-COS17" groups="qcom,kaanapali-vendor" />
 
-  <project path="hardware/oplus" name="X9UInfinityX/android_hardware_oplus" remote="github" revision="refs/heads/4.1-COS17" />
+  <project path="hardware/oplus" name="X9UInfinityX/android_hardware_oplus-lineage" remote="github" revision="refs/heads/4.1-COS17" />
 
   <remove-project name="LineageOS/android_hardware_qcom-caf_common" />
   <project path="hardware/qcom-caf/common" name="X9UInfinityX/android_hardware_qcom-caf_common" remote="github" revision="refs/heads/4.1-COS17" groups="qcom">
@@ -111,6 +111,15 @@
   <project path="hardware/qcom-caf/sm8850/audio/agm" name="X9UInfinityX/android_vendor_qcom_opensource_agm" remote="github" revision="refs/heads/4.1-cos17" groups="qcom,kaanapali-audio" />
   <project path="hardware/qcom-caf/sm8850/audio/graphservices" name="X9UInfinityX/android_vendor_qcom_opensource_audioreach-graphservices" remote="github" revision="refs/heads/4.1-cos17" groups="qcom,kaanapali-audio" />
   <project path="hardware/qcom-caf/sm8850/audio/pal" name="X9UInfinityX/android_vendor_qcom_opensource_arpal-lx" remote="github" revision="refs/heads/4.1-cos17" groups="qcom,kaanapali-audio" />
+
+  <!-- COS17 source IPACM and tethering offload stack. -->
+  <project path="hardware/qcom-caf/sm8850/data-ipa-cfg-mgr" name="X9UInfinityX/android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="github" revision="refs/heads/4.1-cos17" groups="qcom,kaanapali-vendor" />
+  <project path="hardware/qcom-caf/sm8850/dataipa" name="X9UInfinityX/android_vendor_qcom_opensource_dataipa" remote="github" revision="refs/heads/4.1-cos17" groups="qcom,kaanapali-vendor" />
+
+  <!-- Source display HALs used with the COS17 DPU970 configuration. -->
+  <project path="hardware/qcom-caf/sm8850/display/core" name="X9UInfinityX/android_vendor_qcom_opensource_display-core" remote="github" revision="refs/heads/4.1-cos17" groups="qcom,kaanapali-display" />
+  <project path="hardware/qcom-caf/sm8850/display/hal" name="X9UInfinityX/android_hardware_qcom_display" remote="github" revision="refs/heads/4.1-cos17" groups="qcom,kaanapali-display" />
+  <project path="hardware/qcom-caf/sm8850/display/intf" name="X9UInfinityX/android_vendor_qcom_opensource_display-intf" remote="github" revision="refs/heads/4.1-cos17" groups="qcom,kaanapali-display" />
 
   <remove-project path="hardware/qcom-caf/thermal" />
   <project path="hardware/qcom-caf/thermal" name="OnePlus-SM8850-Development/android_hardware_qcom_thermal" remote="github" revision="refs/heads/lineage-23.2" groups="qcom,kaanapali-vendor" />
