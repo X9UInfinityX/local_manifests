@@ -106,7 +106,11 @@
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8850/Android.bp" />
   </project>
 
-  <project path="hardware/qcom-caf/sm8850/audio/primary-hal" name="X9UInfinityX/android_hardware_qcom_audio-ar" remote="github" revision="refs/heads/4.1-COS17" groups="qcom,kaanapali-audio" />
+  <!-- COS17 source audio stack: Lineage-based X9U forks with only required device patches. -->
+  <project path="hardware/qcom-caf/sm8850/audio/primary-hal" name="X9UInfinityX/android_hardware_qcom_audio-ar-lineage" remote="github" revision="refs/heads/4.1-cos17" groups="qcom,kaanapali-audio" />
+  <project path="hardware/qcom-caf/sm8850/audio/agm" name="X9UInfinityX/android_vendor_qcom_opensource_agm" remote="github" revision="refs/heads/4.1-cos17" groups="qcom,kaanapali-audio" />
+  <project path="hardware/qcom-caf/sm8850/audio/graphservices" name="X9UInfinityX/android_vendor_qcom_opensource_audioreach-graphservices" remote="github" revision="refs/heads/4.1-cos17" groups="qcom,kaanapali-audio" />
+  <project path="hardware/qcom-caf/sm8850/audio/pal" name="X9UInfinityX/android_vendor_qcom_opensource_arpal-lx" remote="github" revision="refs/heads/4.1-cos17" groups="qcom,kaanapali-audio" />
 
   <remove-project path="hardware/qcom-caf/thermal" />
   <project path="hardware/qcom-caf/thermal" name="OnePlus-SM8850-Development/android_hardware_qcom_thermal" remote="github" revision="refs/heads/lineage-23.2" groups="qcom,kaanapali-vendor" />
